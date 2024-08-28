@@ -168,7 +168,7 @@ The primary challenge is to determine how HealthMax can leverage NRM principles 
 <a name="#kpis"></a>
 
 1. Market Share
-   * Measures HealthMax's sales relative to competitors, expressed as a percentage of total market sales. This KPI helps assess HealthMax's competitive position in the shampoo market.
+* Measures HealthMax's sales relative to competitors, expressed as a percentage of total market sales. This KPI helps assess HealthMax's competitive position in the shampoo market.
 
 2. Growth
 * Evaluates the increase in sales over time to determine how HealthMax's brands are evolving. Calculated as the percentage change in sales from one period to the next.
