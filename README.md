@@ -96,7 +96,7 @@ Optimizing Net Revenue Management for a fictitious FMCG company using Excel, foc
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## 🚀 Getting Started
 
 To get started with the project, follow these steps:
 
@@ -123,7 +123,7 @@ To get started with the project, follow these steps:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- PROBLEM STATEMENT -->
-## Executive Summary
+## 📊 Executive Summary
 
 <!-- Section Name tag -->
 <a name="#executive-summary"></a>
@@ -131,19 +131,20 @@ To get started with the project, follow these steps:
 This case study focused on applying analytical and business skills to a real-world problem within the FMCG industry. I analyzed data to identify growth opportunities related to Net Revenue Management for HealthMax, a shampoo supplier, and presented recommendations to management.
 
 Key Deliverabes:
-* Detailed market analysis and KPI calculations for HealthMax's product portfolio.
-* Profitability matrix and strategic recommendations for product prioritization.
-* Forecasted net sales for 2023 and 2024, including the impact of NRM initiatives.
-* Waterfall chart illustrating the effect of strategic initiatives on net sales.
+* 📈 Detailed market analysis and KPI calculations for HealthMax's product portfolio.
+* 💼 Profitability matrix and strategic recommendations for product prioritization.
+* 🔮 Forecasted net sales for 2023 and 2024, including the impact of NRM initiatives.
+* 📊 Waterfall chart illustrating the effect of strategic initiatives on net sales.
 
 Expected Outcomes:
-* Enhanced understanding of Net Revenue Management principles and their application.
-* Identification of high-potential products and market opportunities for HealthMax.
-* Strategic insights into optimizing pricing, promotions, and product launches.
-* Increased net sales and profitability through informed decision-making and NRM strategies.
+
+* 🧠 Enhanced understanding of Net Revenue Management principles and their application.
+* 🔍 Identification of high-potential products and market opportunities for HealthMax.
+* 💡 Strategic insights into optimizing pricing, promotions, and product launches.
+* 💰 Increased net sales and profitability through informed decision-making and NRM strategies.
 
 <!-- PROJECT SCOPE -->
-### Project Scope
+### 📚 Project Scope
 
 <!-- Section Name tag -->
 <a name="#project-scope"></a>
@@ -153,7 +154,7 @@ The project involves understanding the FMCG industry, analyzing the shampoo mark
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- PROBLEM STATEMENT -->
-## Problem Statement
+## ❓Problem Statement
 
 <!-- Section Name tag -->
 <a name="#problem-statement"></a>
@@ -161,7 +162,7 @@ The project involves understanding the FMCG industry, analyzing the shampoo mark
 Problem Statement:
 The primary challenge is to determine how HealthMax can leverage NRM principles to optimize pricing, enhance product placement, and drive promotional strategies to maximize net revenue.
 
-### Key Performance Indicators (KPIs)
+### 📊 Key Performance Indicators (KPIs)
 
 <!-- Section Name tag -->
 <a name="#kpis"></a>
@@ -176,14 +177,14 @@ The primary challenge is to determine how HealthMax can leverage NRM principles 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DATA SOURCES -->
-## Data Sources
+## 📂 Data Sources
 
 <!-- Section Name tag -->
 <a name="#data-sources"></a>
 
 The dataset used in this project is external data provided by a major retailer, which includes sales data for various shampoo brands, including HealthMax and its competitors. The data is segmented by region, subcategory, and supplier, and is available in both unit and value sales from January 2018 to March 2023.
 
-### Preprocessing
+### 🛠️ Preprocessing
 
 <!-- Section Name tag -->
 <a name="#preprocessing"></a>
@@ -201,17 +202,17 @@ The dataset used in this project is external data provided by a major retailer, 
 
 
 <!-- APPROACH -->
-## Approach
+## 🧩 Approach
 
 <!-- Section Name tag -->
 <a name="#approach"></a>
 
-### Investigating the Dataset
+### 🔍 Investigating the Dataset
 
 1. Data Exploration
   - Created a pivot table to identify the number of different brands per supplier. This analysis revealed that HealthMax owns two brands in the market.
 
-### Net Revenue Management
+### 💼 Net Revenue Management
 
 1. Net Sales Calculation
   - Imported the internal sales dataset to analyze HealthMax's product portfolio.
@@ -240,7 +241,7 @@ The dataset used in this project is external data provided by a major retailer, 
   - Recommended launching Herbashine due to its higher gross profit potential, despite lower net sales compared to HerbEssentials.
 
 
-### Optimizing Net Revenue
+### 💹 Optimizing Net Revenue
 
 1. Price Pack Architecture
   - Identified the potential for a smaller 50ml shampoo bottle, targeting travelers.
@@ -265,7 +266,7 @@ The dataset used in this project is external data provided by a major retailer, 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- RESULTS -->
-## Results
+## 🎯 Results
 
 <!-- Section Name tag -->
 <a name="#results"></a>
@@ -286,7 +287,7 @@ The dataset used in this project is external data provided by a major retailer, 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CODE STRUCTURE -->
-## Code Structure
+## 🗂️ Code Structure
 
 <!-- Section Name tag -->
 <a name="#code-structure"></a>
@@ -301,7 +302,7 @@ The codebase is organized into:
 
 
 <!-- Lessons Learned -->
-## Lessons Learned
+## 📚 Lessons Learned
 
 <!-- Section Name tag -->
 <a name="#lessons-learned"></a>
@@ -325,7 +326,7 @@ Throughout this case study, several key learnings were achieved:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE WORK -->
-## Future Work
+## 🔮 Future Work
 
 <!-- Section Name tag -->
 <a name="#future-work"></a>
@@ -339,7 +340,7 @@ Potential future enhancements include:
 
 
 <!-- LICENSE -->
-## License
+## 📜 License
 
 <!-- Section Name tag -->
 <a name="#license"></a>
@@ -351,7 +352,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
-## Contact
+## 📬 Contact
 
 <!-- Section Name tag -->
 <a name="#contact"></a>
