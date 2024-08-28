@@ -170,9 +170,14 @@ The primary challenge is to determine how HealthMax can leverage NRM principles 
 1. Market Share
 * Measures HealthMax's sales relative to competitors, expressed as a percentage of total market sales. This KPI helps assess HealthMax's competitive position in the shampoo market.
 
+<img src="Images/MarketShare.png" alt="Market Share" width="1200">
+
+<br>
+
 2. Growth
 * Evaluates the increase in sales over time to determine how HealthMax's brands are evolving. Calculated as the percentage change in sales from one period to the next.
 
+<img src="Images/Growth.png" alt="Growth" width="400" >
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,6 +188,7 @@ The primary challenge is to determine how HealthMax can leverage NRM principles 
 <a name="#data-sources"></a>
 
 The dataset used in this project is external data provided by a major retailer, which includes sales data for various shampoo brands, including HealthMax and its competitors. The data is segmented by region, subcategory, and supplier, and is available in both unit and value sales from January 2018 to March 2023.
+
 
 ### 🛠️ Preprocessing
 
@@ -198,6 +204,9 @@ The dataset used in this project is external data provided by a major retailer, 
 
   * Identified and documented the number of missing values in each column to understand data gaps.
 
+#### External Data
+<img src="Images/ExternalData.png" alt="External Data" width="1000">
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -212,12 +221,14 @@ The dataset used in this project is external data provided by a major retailer, 
 1. Data Exploration
   - Created a pivot table to identify the number of different brands per supplier. This analysis revealed that HealthMax owns two brands in the market.
 
+<br>
+<img src="Images/Brands.png" alt="Brands per supplier" width="500" >
+
 ### 💼 Net Revenue Management
 
 1. Net Sales Calculation
   - Imported the internal sales dataset to analyze HealthMax's product portfolio.
   - Calculated the net sales for each product in 2022, resulting in a total net sales figure of $20,480,715 for HealthMax products.
-
 
 2. Gross Margin Analysis
   - Added a column for "Gross Profit per Unit" to determine the profitability of each product.
@@ -225,20 +236,41 @@ The dataset used in this project is external data provided by a major retailer, 
   - Introduced a "Gross Margin" column, calculating the gross margin for all products using the formula: Total Gross Profit per Product / Total Net Sales 2022.
   - Found that the average gross margin across HealthMax's portfolio is 68.49%.
 
+#### Internal Sales Data
+<img src="Images/InternalData.png" alt="Internal Sales Data" width="1000">
+
+<br>
+
 3. Profitability Matrix
   - Added a "Net Sales Contribution" column to determine each product's percentage contribution to the total net sales for 2022.
   - Created a PivotTable in a new worksheet called "Profitability Matrix" and visualized the data using a scatter plot.
   - The scatter plot revealed that Starbust Ultra Soft 100ML is the most important product with high contribution and margin, while the Strong Hair range showed lower profitability and net sales.
+
+<br>
+<img src="Images/ProfitabilityMatrix.png" alt="Profitability Matrix Scatter Plot" width="600">
+<br>
+
+<br>
 
 4. New Category Opportunity
   - Analyzed the brand mix and identified that HealthMax is active in only 2 out of 5 shampoo subcategories.
   - Determined that the fastest-growing subcategory from 2018 to 2022 is Organic Shampoo.
   - Estimated the full-year size of the Organic Shampoo subcategory for 2024, projecting a 20% increase over the March 2023 MAT values, resulting in an estimated sales volume of 1,020,899 units.
 
+<br>
+<img src="Images/Category.png" alt="New Category" width="500">
+<br>
+
+<br>
+
 5. New Product Launch
   - Imported the New Product Launch dataset containing two potential organic shampoo products.
   - Estimated expected net sales, gross profit, and gross margin for both products.
   - Recommended launching Herbashine due to its higher gross profit potential, despite lower net sales compared to HerbEssentials.
+
+#### New Product Launch Data
+<img src="Images/ProductData.png" alt="New Product Launch Data" width="1000">
+
 
 
 ### 💹 Optimizing Net Revenue
@@ -249,19 +281,48 @@ The dataset used in this project is external data provided by a major retailer, 
   - Set the net price at $2.30 and cost of goods sold (COGS) at $0.70.
   - Estimated that the 50ml shampoo would achieve 10% of the 2022 volume of the 100ml pack, resulting in projected net sales of $265,960 annually.
 
+#### 50ml shampoo bottle Data
+<img src="Images/50ml.png" alt="50ml shampoo bottle Data" width="1000">
+<br>
+<br>
+
 2. Promotion Management
   - Analyzed the effectiveness of three different promotions for the Shinez brand in 2022.
   - Calculated the ROI for each promotion using baseline sales and uplift metrics.
   - Determined that Promotion #2 was the most effective, with a 12% ROI, while Promotion #1 had a negative ROI and should not be repeated.
 
+#### Shinez Promotion Analysis
+<img src="Images/ShinezPromotion.png" alt="Shinez Promotion Analysis" width="500">
+<br>
+<br>
+
+#### Promotion Analysis Data
+<img src="Images/Promotion.png" alt="Promotion Analysis Data" width="1000">
+<br>
+<br>
+
 3. Forecasting
   - Created a forecast for HealthMax's net sales in 2023 and 2024 without NRM initiatives, based on market trends until 2022.
   - Forecasted net sales for 2023 at $20,606,058 and for 2024 at $20,808,712.
+<br>
+<br>
+
+<img src="Images/Forecast.png" alt="Forecast" width="700">
+<br>
+<br>
+
 
 4. Waterfall Chart
   - Developed a waterfall chart to illustrate the impact of NRM initiatives on 2024 net sales.
   - Included columns for estimated net sales 2023, natural growth, organic shampoo, 50ml shampoo, and estimated net sales 2024.
   - Demonstrated that NRM initiatives, including the launch of organic shampoo and 50ml shampoo, generated more net sales than natural growth alone.
+<br>
+<br>
+
+<img src="Images/Waterfall.png" alt="Waterfall Chart" width="700">
+<br>
+<br>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
